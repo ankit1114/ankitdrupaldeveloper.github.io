@@ -1,0 +1,237 @@
+/*-------------------------- Early formatting --------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+
+}
+
+.nav-menu {
+    margin-top: 0px;
+}
+
+.nav-menu li {
+    font-size: 20px;
+}
+
+.iconify {
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.github-page {
+    display: inline-block;
+    color: #fff;
+    margin-left: 26%;
+    font-size: 45px;
+    padding-top: 10px;
+}
+
+/*-------------------------- Project - Cards --------------------------*/
+
+.project-title {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+}
+
+.project-container {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+    margin: 0 auto;
+}
+
+.project-container .card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 30px 60px;
+    background: #0f4c75;
+    text-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+
+.project-container .card .face {
+    border-radius: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.project-container .card .face-under {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 5%;
+}
+
+.project-container .card .face-under p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.project-container .card .face-under .iconify {
+    color: #fff;
+    margin: 15px 100px;
+    font-size: 40px;
+
+
+}
+
+.project-container .card .face-above {
+    border: 2px solid #fff;
+    border-radius: 5%;
+    background: #0f4c75;
+    transition: 0.5s;
+    padding: 90px 30px;
+}
+
+.project-container .card:hover .face-above {
+    height: 60px;
+    padding: 10px;
+    background: #db7a18;
+}
+
+.project-container .card .face-above h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.project-container .card:hover .face-above h2 {
+    font-size: 1em;
+}
+
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 640px) {
+
+    .nav-scroll {
+        display: block;
+        top: 0%;
+    }
+
+    .nav-scroll .nav-bar {
+        margin-left: 30px;
+        display: inline-block;
+
+    }
+
+    .nav-scroll .nav-bar span {
+        font-size: 30px;
+    }
+
+    .nav-scroll .nav-menu.respons-nav-menu {
+        display: none;
+
+    }
+    
+    .nav-scroll .github-page.respons-nav-menu {
+        display: none;
+    }
+
+    .nav-scroll .nav-menu {
+        height: 700px;
+        padding-top: 10px;
+        background: rgb(7, 52, 82);
+        display: block;
+        float: none;
+        margin: 0px;
+    }
+
+    .nav-scroll .nav-menu li {
+        display: block;
+
+        margin: 30px 10px 0px 10px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .nav-scroll .nav-name {
+        width: 70%;
+        font-size: 55px;
+        display: inline-block;
+        text-align: center;
+        padding: 0px;
+        float: none;
+        margin: 5px 0px 10px 20px;
+    }
+
+    /*      ---------- Header ---------- */
+
+   
+
+    .nav-menu {
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        float: none;
+        margin: 0px;
+    }
+
+    .nav-menu li {
+        display: inline-flex;
+        flex-flow: row;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-left: 15px;
+    }
+
+    .github-page {
+        display: block;
+        margin: 0px 0 0px 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px hidden #fff;
+        width: 100%;
+        font-size: 155px;
+        background: rgb(7, 52, 82);
+    }
+
+}

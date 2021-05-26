@@ -1,0 +1,343 @@
+ <!DOCTYPE html>
+ <html>
+
+ <head>
+     <link rel="shortcut icon" type="image/png" href="./Data/code.png"/>
+     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="HandheldFriendly" content="true">
+     <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <link rel="stylesheet" type="text/css" href="./Resources/External%2520CSS/icon.css">
+     <link rel="stylesheet" type="text/css" href="./Resources/style.css">
+     <link rel="stylesheet" type="text/css" href="CSS/media/mediaQuery.css">
+
+
+     <title>
+         Portfolio || Ankit Maurya
+     </title>
+ </head>
+
+ <body>
+     <header id="my-header">
+         <nav id="nav-bar">
+             <div class="nav-bar"><span class="material-icons">
+                     menu
+                 </span></div>
+             <a href="#my-header" class="nav-name">Ankit Kumar Maurya</a>
+             <div class="nav-menu respons-nav-menu">
+                 <ul>
+                     <li><a href="#about">About me</a></li>
+                     <li><a href="#EE">Education</a></li>
+                     <li><a href="#skills">Skills</a></li>
+                     <li><a href="#projects">Projects</a></li>
+                     <li><a href="#contact">Contact me</a></li>
+                 </ul>
+             </div>
+         </nav>
+         <div class="header-quote">
+             <p>“If somebody offers you an amazing opportunity but you are not sure you can do it, say yes – then learn how to do it later!”
+
+                 <br>
+                 <p class="quote-author">-Richard Branson</p>
+             </p>
+         </div>
+         <div class="header-text">
+             <h3 class=" btn header-hello-btn">Hello!</h3>
+             <div class="header-bio">
+                 <h1><span class="typing"></span></h1>
+             </div>
+         </div>
+
+         <script>
+             var header = document.getElementById('my-header');
+             var scale = header.offsetHeight;
+             console.log(scale);
+             window.addEventListener('scroll', function() {
+                 let menuArea = document.getElementById('nav-bar');
+
+                 if (window.pageYOffset > scale) {
+                     menuArea.classList.add('nav-scroll')
+                 } else {
+                     menuArea.classList.remove('nav-scroll')
+                 }
+             })
+
+         </script>
+
+     </header>
+
+     <!--------------------About Me---------------------->
+
+     <section class="section-about" id="about">
+         <h2>About Me</h2>
+         <div class="about-container">
+             <img src="Resources/img/profile.jpg" alt="Ankit Kumar Maurya Picture" class="profile-pic">
+             <div class="aboutme" data-aos="zoom-in">
+                 <div class="aboutme-data">
+                     Hi there! I'm Ankit. I'm a Experienced Drupal 8 Developer.
+                 </div>
+                 <a href="Data/Tarun_Sharma_CV.pdf" download="Tarun_Sharma_CV.pdf" class="download-resume">
+                     <h4 class=" btn aboutme-btn">Download Resume </h4>
+                 </a>
+
+                 <h4 class=" btn aboutme-btn"><a href="https://github.com/aryabhatta22" target="_blank">GitHub</a></h4>
+             </div>
+         </div>
+     </section>
+     <!--------------------Education---------------------->
+
+     <section class="section-EE" id="EE">
+
+         <h2>Education &amp; Experience</h2>
+
+         <div class="EE-container">
+             <div class="face EE-card" data-aos="zoom-in">
+                 <div class="EE-card-up">
+                     <span class="material-icons">
+                         school
+                     </span>
+                     <h3>BSc</h3>
+                 </div>
+                 <div class=" face EE-card-down">
+                     <p>Graduated from CSJM Kanpur University, India in 2016 with Computer Application as major subject.</p>
+                     <div class="btn"><a href="http://www.kanpuruniversity.org/" target="_blank">Visit</a></div>
+                 </div>
+             </div>
+             <div class="EE-card" data-aos="zoom-in">
+                 <div class="EE-card-up">
+                     <span class="material-icons">
+                         school
+                     </span>
+                     <h3>MCA</h3>
+                 </div>
+                 <div class="EE-card-down">
+                     <p>Will graduate in 2021 from Jamia Millia Islamia, New Delhi.</p>
+                     <div class="btn"><a href="https://www.jmi.ac.in/" target="_blank">Visit</a></div>
+                 </div>
+             </div>
+             <div class="EE-card" data-aos="zoom-in">
+                 <div class="EE-card-up">
+                     <span class="material-icons">
+                         work
+                     </span>
+                     <h3>Internship</h3>
+                 </div>
+                 <div class="EE-card-down">
+                     <p>Joined Jawaharlal Nehru University, New Delhi in Jan 2020 as a research and development intern.</p>
+                     <div class="btn visit"><a target="_blank" href="http://shandarslab.org/index.php/members">Visit</a></div>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+
+
+
+
+     <!--------------------Skills---------------------->
+
+     <section class="section-skills" id="skills">
+         <h2>Skills</h2>
+
+
+
+         <div class="skill-menu">
+             <ul>
+                 <li class="skill-text" id="skill-1" data-aos="fade-right">Programming</li>
+                 <li class="skill-text" id="skill-2" data-aos="fade-right">Web</li>
+                 <li class="skill-text" id="skill-3" data-aos="fade-right">Machine Learning</li>
+                 <li class="skill-text" id="skill-4" data-aos="fade-right">Other</li>
+                 <div class="skill-bio">
+                     <span class="pro iconify" data-icon="cib:c" data-inline="false"></span>
+                     <span class="pro iconify" data-icon="mdi:language-cpp" data-inline="false"></span>
+                     <span class="pro iconify" data-icon="cib:javascript" data-inline="false"></span>
+                     <span class="pro iconify" data-icon="fa-brands:python" data-inline="false"></span>
+                     <span class="pro iconify" data-icon="cib:java" data-inline="false"></span>
+                     <span class="web iconify" data-icon="icomoon-free:html-five2" data-inline="false"></span>
+                     <span class="web iconify" data-icon="uil:html3-alt" data-inline="false"></span>
+                     <span class="web iconify" data-icon="ion:logo-nodejs" data-inline="false"></span>
+                     <span class="web iconify" data-icon="cib:postman" data-inline="false"></span>
+                     <span class="web web iconify" data-icon="cib:react" data-inline="false"></span>
+                     <span class="web iconify" data-icon="cib:mongodb" data-inline="false"></span>
+                     <span class="ml iconify" data-icon="cib:keras" data-inline="false"></span>
+                     <span class="ml iconify" data-icon="cib:tensorflow" data-inline="false"></span>
+                     <span class="other iconify" data-icon="cib:mysql" data-inline="false"></span>
+                 </div>
+             </ul>
+         </div>
+
+
+     </section>
+
+     <!--------------------Projects---------------------->
+
+     <section class="section-pro" id="projects">
+         <h2>Projects</h2>
+         <div class="project-container">
+             <div class="project-card" data-aos="zoom-in">
+                 <div class="project-card-up">
+                     <span class="material-icons icon">
+                         language
+                     </span>
+                     <div class="project-card-title">Web</div>
+                 </div>
+
+                 <div class="project-card-down">
+                     <a href="./Pages/projects_web.html" class="btn project-btn-view">View</a></div>
+
+             </div>
+             <div class="project-card" data-aos="zoom-in">
+                 <div class="project-card-up">
+                     <span class="material-icons icon">
+                         select_all
+                     </span>
+                     <div class="project-card-title">AI</div>
+                 </div>
+
+                 <div class="project-card-down">
+                     <a href="./Pages/projects_ai.html" class="btn project-btn-view">View</a></div>
+
+             </div>
+             <div class="project-card" data-aos="zoom-in">
+                 <div class="project-card-up">
+                     <span class="material-icons icon">
+                         code
+                     </span>
+                     <div class="project-card-title">Others</div>
+                 </div>
+
+                 <div class="project-card-down">
+                     <a href="./Pages/project_others.html" class="btn project-btn-view">View</a></div>
+
+             </div>
+
+         </div>
+     </section>
+
+
+
+
+     <!--------------------Contact Me ---------------------->
+     <section class="section-contact" id="contact">
+         <h2>Contact Me</h2>
+         <div class="container-contact" data-aos="zoom-in">
+             <div class="container-contact-left">
+
+
+                 <h3>Send me a Message<span class="material-icons icon">
+                         email
+                     </span></h3>
+
+                 <form method="post" action="https://github.us8.list-manage.com/subscribe/post?u=f520327b32ac877c84e5fb87c&amp;id=d5954b3d3c" class="container-contact-form" target="_blank" novalidate>
+                     <label for="name">Name</label>
+                     <input type="text" name="FNAME" id="mce-FNAME" placeholder="Your Name" required>
+                     <label for="email">E-Mail</label>
+                     <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Your email" required>
+                     <label>Drop me a line</label>
+                     <textarea name="MMERGE2" placeholder="Your message" id="mce-MMERGE2"></textarea><br>
+                     <input class="btn header-hello-btn" type="submit" value="send it!">
+                 </form>
+
+
+             </div>
+
+             <div class="container-contact-right">
+                 <h3>Contact Information</h3>
+                 <div class="contact-info"><i class="material-icons icon">face</i>Ankit Kumar Maurya<br><span class="material-icons icon">
+                         email
+                     </span>tarun.hive@hotmail.com<br><span class="material-icons icon">
+                         location_on
+                     </span>New Delhi, India</div>
+                 <div class="contact-social">
+                     <a href="https://www.linkedin.com/in/aryabhatta22/" target="_blank"><span class="iconify" data-icon="brandico:linkedin-rect" data-inline="false"></span></a>
+
+                     <a href="https://www.instagram.com/tarun_says/" target="_blank"> <span class="iconify" data-icon="uil:instagram-alt" data-inline="false"></span>
+                     </a>
+                     <a href="https://github.com/aryabhatta22" target="_blank"><span class="iconify" data-icon="ant-design:github-outlined" data-inline="false"></span></a>
+                     <a href="https://www.quora.com/profile/Tarun-Sharma-317" target="_blank"><span class="iconify" data-icon="bx:bxl-quora" data-inline="false"></span></a>
+                     <a href="https://t.me/Aryabhatta22" target="_blank"><span class="iconify" data-icon="cib:telegram-plane" data-inline="false"></span></a>
+
+                 </div>
+
+             </div>
+         </div>
+
+     </section>
+
+     <!--------------------Footer ---------------------->
+     <footer>
+         <div class="footer-container">
+             <div class="footer-menu">
+                 <ul class="footer-nav">
+                     <li><a href="#about">About me</a></li>
+                     <li><a href="#EE">Education</a></li>
+                     <li><a href="#skills">Skills</a></li>
+                     <li><a href="#projects">Projects</a></li>
+                     <li><a href="#contact">Contact me</a></li>
+                 </ul>
+             </div>
+             <div class="footer-cc">
+                 <p> No Copywrite, its <script>document.write(new Date().getFullYear())</script>
+                 . Source code on GitHub.</p>
+             </div>
+         </div>
+     </footer>
+
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+     <script src="JS/jquery-3.5.0.min.js"></script>
+     <script src="JS/typed.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+     <script>
+         AOS.init({
+             duration: 1300
+         });
+
+     </script>
+     <script type="text/javascript">
+         var typed = new Typed('.typing', {
+             strings: ["Welcome to my Portfolio.", "I'm happy to see you."],
+             loop: true,
+             typeSpeed: 70,
+             backSpeed: 30,
+             backDelay: 1500
+         });
+
+     </script>
+     <script type="text/javascript">
+         $(document).ready(function() {
+             $('.nav-bar').click(function() {
+                 $('.nav-menu').toggleClass('respons-nav-menu')
+             })
+
+
+
+         })
+
+
+         $(document).ready(function() {
+             $('.nav-menu').click(function() {
+                 $('.nav-menu').addClass('respons-nav-menu')
+             })
+
+
+
+         })
+
+         $(document).ready(function() {
+             $('.nav-name').click(function() {
+                 $('.nav-menu').addClass('respons-nav-menu')
+             })
+
+
+
+         })
+
+     </script>
+
+ </body>
+
+ </html>

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "type": "ai",
+        "projectName": "Stock Precition",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull",
+        "link": "https://github.com/aryabhatta22/Stock-prediction-LSTM"
+    },
+    {
+        "id": 1,
+        "type": "ai",
+        "projectName": "Machine learning models",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull",
+        "link": "https://github.com/aryabhatta22/Machine_Learning_Models"
+    },
+    {
+        "id": 2,
+        "type": "ai",
+        "projectName": "Stock Precition using CNN",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull",
+        "link": "https://github.com/aryabhatta22/Stock-Exchange-Prediction-using-CNN"
+    },
+    {
+        "id": 3,
+        "type": "web",
+        "projectName": "portfolio",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ull",
+        "link": "https://github.com/aryabhatta22/aryabhatta22.github.io"
+    }
+]

@@ -1,0 +1,314 @@
+/******************* Iphone 6, 7, 8 + *******************/
+
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 640px) {
+
+    /*      ---------- Navigation ---------- */
+
+    .nav-scroll {
+        display: block;
+        top: 0%;
+    }
+
+    .nav-scroll .nav-bar {
+        margin-left: 30px;
+        display: inline-block;
+
+    }
+
+    .nav-scroll .nav-bar span {
+        font-size: 30px;
+    }
+
+    .nav-scroll .nav-menu.respons-nav-menu {
+        display: none;
+    }
+
+    .nav-scroll .nav-menu {
+        height: 700px;
+        padding-top: 60px;
+        background: rgb(7, 52, 82);
+        display: block;
+        float: none;
+        margin: 0px;
+    }
+
+    .nav-scroll .nav-menu li {
+        display: block;
+
+        margin: 30px 10px 0px 10px;
+        font-size: 20px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .nav-scroll .nav-name {
+        width: 70%;
+        font-size: 55px;
+        display: inline-block;
+        text-align: center;
+        padding: 0px;
+        float: none;
+        margin: 0px 0px 10px 20px;
+    }
+
+    /*      ---------- Header ---------- */
+
+    .nav-name {
+        font-size: 55px;
+        padding: 10px;
+        padding-top: 20px;
+        margin-top: 0px;
+        display: block;
+        text-align: center;
+    }
+
+    .nav-menu {
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        float: none;
+        margin: 0px;
+        margin-top: 15px;
+    }
+
+    .nav-menu li {
+        display: inline-flex;
+        flex-flow: row;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-left: 15px;
+    }
+
+    header {
+        margin: 0px;
+        height: 70vh;
+    }
+
+    .header-text {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        left: 0%;
+        transform: translate(0%, -100%);
+        margin-top: 20px;
+
+    }
+
+    .header-hello-btn {
+
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+
+    .typing {
+        font-size: 30px;
+    }
+
+    .typed-cursor {
+        color: rgba(8, 42, 65, 0.64);
+        font-size: 40px;
+    }
+
+
+    .header-quote {
+        display: block;
+        margin: 50px 10% 40px 10%;
+        transform: translate(0%, 240%);
+        text-align: justify;
+    }
+
+    .header-quote p {
+        color: #092c43;
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+
+    .quote-author {
+        font-size: 12px;
+        margin-left: 40%;
+    }
+
+    /*-------------------------- About Me --------------------------*/
+
+    .section-about {
+        margin: 80px 0px 0px 0px;
+
+    }
+
+    .about-container {
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .profile-pic {
+
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin: 0px;
+        float: none;
+        border: 1px solid #0f4c75;
+    }
+
+    .aboutme-data {
+        padding: 0px;
+        margin-top: 30px;
+    }
+
+    .aboutme-btn {
+        margin-left: 34%;
+        margin-right: 34%;
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    .aboutme-btn:first-child {
+        margin-top: 35px;
+        margin-left: 15%;
+        margin-right: 5%;
+        font-size: 25px;
+        width: 85%;
+        padding-left: 30px;
+    }
+
+    /*-------------------------- Education -------------------------*/
+
+    .section-EE {
+        margin: -125px 0px;
+    }
+
+    .section-EE h2 {
+        font-size: 30px;
+        margin: 0px 20px 0px 0xp;
+    }
+
+    .EE-container {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+
+    /*-------------------------- Skills --------------------------*/
+
+    .section-skills {
+        margin: -100px 0px;
+    }
+
+    .skill-menu {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .skill-text {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .skill-bio {
+        padding: 30px;
+        margin-top: 30px;
+        width: 100%;
+        font-size: 53px;
+        transform: translate3D(0px, 0px, 0px);
+        text-align: justify;
+    }
+
+    .skill-bio .iconify {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    /*-------------------------- Projects --------------------------*/
+
+    .section-pro {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .project-container {
+        margin: 50px 60px 30px 60px;
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    /*-------------------------- Contact Me --------------------------*/
+
+    .section-contact {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .container-contact {
+        margin: 40px 30px;
+        flex-direction: column;
+    }
+
+    .container-contact-left {
+        padding: 40px 30px 30px 30px;
+        width: 100%;
+    }
+
+    .container-contact-left h3 {
+
+        font-size: 20px;
+    }
+
+    .container-contact-left h3 .icon {
+        margin-right: 0px;
+        transform: translate(20px, -30px);
+        font-size: 50px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    .container-contact-form .btn {
+        margin: 15px 33% 0px 33%;
+    }
+
+    .container-contact-right {
+        width: 100%;
+    }
+
+    .contact-social {
+        margin-top: 40px;
+    }
+
+    /*-------------------------- Footer --------------------------*/
+    .footer-container {
+        background: #072b43;
+        display: block;
+    }
+
+    .footer-menu {
+        margin: 15px 0px 15px 0px;
+        font-size: 15px;
+
+    }
+
+    .footer-menu ul li {
+        margin: 8px 10px 0px 10px;
+    }
+
+    .footer-cc p {
+        float: none;
+        text-align: center;
+        display: block;
+    }
